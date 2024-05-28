@@ -11,6 +11,7 @@ Exercices
             :width: 480
 
     #.  Ajouter au champ de saisie du prénom, les attributs suivants:
+    
         -   l'attribut ``name`` qui a pour valeur ``prenom``
         -   l'attribut ``id`` qui a pour valeur ``prenom``
 
