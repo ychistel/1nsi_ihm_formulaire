@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Formulaire web</title>
+<meta charset='utf-8' />
+<!--link type="text/css" href="mon_style.css" rel="stylesheet" /-->
+	<link type="text/css" href="css/style.css" rel="stylesheet">	
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+<h1>Formulaire en HTML</h1>
+<p class="centre">
+<img class="cadre" id="formulaire" src="img/formulaire_1.png" width="600px" />
+</p>
+<h2>Balise de formulaire</h2>
+
+<p>La création d'un formulaire se fait avec les balises &lt;form&gt; et &lt;/form&gt;. 
+Entre ces deux balises, on ajoutera des balises de champs de saisie exposées ci-après.</p>
+
+<p>La balise <b>form</b> va contenir des attributs qui modifient le comportement du formulaire.
+Les deux attributs principaux sont :</p>
+<ul>
+<li>l'attribut <b>action</b> qui va contenir le nom du fichier qui traitera les informations envoyées par le formulaire.</li>
+<li>l'attribut <b>method</b> qui indique la méthode d'envoi entre <b>GET</b> et <b>POST</b>.</li>
+<li>d'autres attributs sont autorisés comme les classes CSS et un identifiant HTML.</li>
+</ul>
+
+
+<h2>Champs de formulaire</h2>
+<p>Un champ de formulaire se crée avec la balise &lt;input&gt;. Cette balise peut contenir différents attributs
+dont l'attribut <b>type</b> qui va lui donner une fonction et une apparence particulière. Parmi ces types, on retrouve:</p>
+<ul>
+<li>le type <b>text</b> qui va permettre la saisie d'un texte.</li>
+<li>le type <b>email</b> qui permet de saisir une adresse mail.</li>
+<li>le type <b>password</b> qui permet de saisir un mot de passe.</li>
+<li>le type <b>radio</b> qui permet de sélectionner des valeurs.</li>
+<li>le type <b>checkbox</b> qui permet de cocher des cases.</li>
+<li>le type <b>list</b>qui permet de proposer des valeurs d'une liste déroulante.</li>
+</ul>
+
+<h2>Label de formulaire</h2>
+<p>Chaque champ de saisie est accompagné d'un texte qui indique la saisie attendue. Ce texte est placé
+entre les balises &lt;label&gt; et &lt;/label&gt;. Ce labelt précède ou suit le champ de formulaire.</p>
+
+<h2>Exemple de formulaire</h2>
+
+<p>Le formulaire ci-dessous est un exemple simple composé de 2 champs de saisie de texte.</p>
+
+<form action="" method="get" class="form-example">
+  <div class="form-example">
+    <label for="name">Saisir votre nom: </label>
+    <input type="text" name="name" id="name" required>
+  </div>
+  <div class="form-example">
+    <label for="email">Saisir votre email: </label>
+    <input type="email" name="email" id="email" required>
+  </div>
+  <div class="form-example">
+    <input class="bouton" type="submit" value="Envoyer!">
+  </div>
+</form>
+
+<p>le code html de ce formulaire est le suivant:</p>
+
+<p class="centre"><img class="cadre" src="img/exemple_formulaire.png" /><p>
+
+<h2>Documentation</h2>
+<p>Vous trouverez de la documentation sur le site de la fondation Mozilla.<p>
+<ol>
+<li><a href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/Form">La balise form</a></li>
+<li><a href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/Input">La balise input</a></li>
+<li><a href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/Input/radio">Les boutons radio</a></li>
+</ol>
+
+<h2>Exemple</h2>
+<p>Le formulaire proposé sur la page web suivante dispose d'un formulaire avec traitement. Cela signifie
+que l'attribut <b>action</b> a une valeur désignant un fichier capable de <b>traiter</b> les données envoyées.</p>
+
+<p>Le traitement des données se fait par un langage de programmation installé sur le serveur. Il en existe plusieurs, 
+dont python, mais le langage utilisé ici est <b>PHP</b>. Ce langage PHP, assez différent de python pour la syntaxe, est orienté
+pour le WEB.</p>
+
+<p><a href="formulaire.html">Formulaire avec traitement en PHP</a>
+</body >
+</html>
+

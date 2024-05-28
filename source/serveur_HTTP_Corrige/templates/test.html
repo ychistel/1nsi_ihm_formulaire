@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page test</title>
+<meta charset='utf-8' />	
+    <link type="text/css" href="static/css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="static/js/script.js"></script>
+</head>
+<body>
+    <h1>Une page test</h1>
+
+    <div class="contenu">
+        <p>Un paragraphe avec un lien <a href="https://fr.wikipedia.org">wikipedia</a>.</p>
+        <ul>
+            <li>Le premier de la liste</li>
+            <li>Le second point</li>
+            <li>Ici un point final !</li>
+        </ul>
+        <button>Cliquer</button>
+    </div>
+
+    <form action="http://localhost:5000/reponse" method="get" class="form-example">
+
+    
+
+            <label>Mon prénom :</label><input type="text" name="prenom" value="Bob" /><br />
+            <label>Mon âge</label><input type="number" name="age" value="16" /><br/>
+
+            <input type="submit" value="Envoyer">
+
+      </form>
+
+</body >
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Formulaire web</title>
+<meta charset='utf-8' />
+    <link type="text/css" href="static/css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="static/js/script.js"></script>
+</head>
+<body>
+<h1>Mon premier formulaire</h1>
+
+<div class="succes">
+    {% if valeur['prenom'] %}<p>Cher.e {{valeur['prenom']}}</p> {% endif%}
+    {% if valeur['age'] %}<p>Tu as {{valeur['age']}} ans </p>{% endif %}
+    {% if valeur['pet'] %}<p>Ton animal préféré est un {{valeur['pet']}}</p> {% endif %}
+    {% if valeur['couleur']%}<p>Ta couleur préférée est le {{valeur['couleur']}}</p>{% endif %}
+    {% if valeur['message']%}<p>Ton message: {{valeur['message']}}</p>{% endif %}
+</div>
+
+<div class="accueil">Retour à la page du <a href="http://localhost:5000/formulaire">formulaire</a></div>
+</body >
+</html>
+

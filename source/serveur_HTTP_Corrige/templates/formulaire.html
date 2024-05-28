@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Formulaire web</title>
+<meta charset='utf-8' />	
+    <link type="text/css" href="static/css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="static/js/script.js"></script>
+</head>
+<body>
+<h1>Mon premier formulaire</h1>
+
+<div class="accueil">Le formulaire ci-dessous contient plusieurs champs de saisie et un bouton de soumission.</div>
+
+<!-- Votre formulaire ici -->
+
+<form action="http://localhost:5000/reponse" method="get" class="form-example">
+    <div class="form-example">
+        <h2>Mon identité</h2>
+        <label>prénom</label><input type="text" name="prenom" id="prenom">
+        <label>âge</label><input type="number" name="age" id="age">
+    </div>
+    <div class="form-example">
+        <h2>Mon animal préféré:</h2>
+        <input type="radio" name="pet" value="chien" checked><label>Chien</label>
+        <input type="radio" name="pet" value="chat"><label>Chat</label>
+        <input type="radio" name="pet" value="lapin"><label>Lapin</label>
+        <input type="radio" name="pet" value="rat"><label>Rat</label>
+    </div-->
+    
+    <div class="form-exemple">
+        <h2>Ma couleur préférée</h2>
+        <label>Choisir une couleur:</label>
+        <select name="couleur">
+            <option value="bleu">bleu</option>
+            <option value="vert">vert</option>
+            <option value="rouge">rouge</option>
+            <option value="jaune">jaune</option>
+            <option value="rose">rose</option>
+        </select>
+    </div-->
+
+    <div class="form-exemple">
+        <h2>Mon message</h2>
+        <textarea id="story" name="message" rows="4" cols="40">Ici commence...</textarea>
+    </div-->
+
+    <div class="form-example">
+        <input class="bouton" type="submit" value="Valider">
+    </div>
+  </form>
+
+</body >
+</html>
+

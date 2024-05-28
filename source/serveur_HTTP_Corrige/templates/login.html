@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Formulaire web</title>
+<meta charset='utf-8' />	
+    <link type="text/css" href="static/css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="static/js/script.js"></script>
+</head>
+<body>
+<h1>Formulaire d'authentification</h1>
+
+<!-- Votre formulaire ici -->
+
+<form action="http://localhost:5000/auth" method="post" class="form-example auth">
+    <div class="form-example">
+        <label>Nom:</label>
+        <input type="text" name="nom" id="nom" required>
+    </div>
+    <div class="form-example">
+        <label>Mot de passe:</label>
+        <input type="texasswd" name="passwd" required>
+    </div>
+    
+    <div class="form-example">
+        <input class="bouton" type="submit" value="Valider">
+    </div>
+  </form>
+
+</body >
+</html>
+
