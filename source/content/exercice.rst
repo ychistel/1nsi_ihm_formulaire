@@ -93,7 +93,7 @@ Exercices
 
     Dans le dossier ``serveur_HTTP``, faire un clic droit sur le fichier ``serveur.py`` puis ouvrir avec ``python``. Si tout se passe correctement, la fenêtre de commande exécute le script et on a l'affichage suivant:
 
-    .. figure:: ../img/serveur_HTTP_run.png
+    .. figure:: ../img/serveur_http_run.png
         :align: center
 
     On peut se connecter au serveur web que l'on vient de lancer avec un navigateur en saisissant l'url ``localhost:5000/``.
