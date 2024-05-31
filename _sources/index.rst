@@ -14,3 +14,4 @@ Capacités attendues:
    
    content/cours.rst
    content/exercice.rst
+   content/tp_capitales.rst
