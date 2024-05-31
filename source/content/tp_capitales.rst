@@ -90,7 +90,7 @@ Le fichier ``fonctions.py`` contient 4 fonctions à compléter pour ce jeu de qu
     -   la capitale du pays choisi précédemment
     -   deux autres capitales choisies au hasard dans le dictionnaire ``capitales``
 
-Les trois capitales sont placées dans un tableau ``villes_reponses`` qui est trié ou mélangé avant que les valeurs soient attribuées aux clés ``rep0``, ``rep1`` et ``rep2``.
+    Les trois capitales sont placées dans un tableau ``villes_reponses`` qui est trié ou mélangé avant que les valeurs soient attribuées aux clés ``rep0``, ``rep1`` et ``rep2``.
 
 #.  Lancer le questionnaire en exécutant le fichier ``serveur.py`` dans Thonny puis utiliser un navigateur pour afficher le questionnaire à l'adresse ``http://localhost:5000``.
 

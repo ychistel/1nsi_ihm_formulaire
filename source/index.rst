@@ -10,7 +10,8 @@ Capacités attendues:
 
 .. toctree::
    :maxdepth: 1
-   :caption: Interagir avec un formulaire
+   :hidden:
+   :caption: IHM avec un formulaire
    
    content/cours.rst
    content/exercice.rst
