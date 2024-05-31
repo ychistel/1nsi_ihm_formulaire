@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Formulaire web</title>
+<meta charset='utf-8' />	
+    <link type="text/css" href="static/css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="static/js/script.js"></script>
+</head>
+<body>
+<h1>Les capitales</h1>
+
+<div class="accueil">Quelle est la capitale du pays : {{pays}} ?</div>
+
+<!-- Votre formulaire ici -->
+
+<form action="http://localhost:5000/jouer" method="post" class="form-example">
+
+    <div class="form-example">
+        <h2>Choisir une capitale</h2>
+        <input type="radio" name="capitale" value="{{rep0}}"><label>{{rep0}}</label>
+        <input type="radio" name="capitale" value="{{rep1}}"><label>{{rep1}}</label>
+        <input type="radio" name="capitale" value="{{rep2}}"><label>{{rep2}}</label>
+    </div-->
+
+    <div class="form-example">
+        <label>Votre score est <span class="rouge">{{score}}</span> point(s)</label>
+        <input class="cache" type="number" name="score" value="{{score}}" />
+        <input class="cache" type="text" name="pays" value="{{pays}}" />
+        <input class="bouton" type="submit" value="Valider">
+    </div>
+  </form>
+
+</body >
+</html>
+

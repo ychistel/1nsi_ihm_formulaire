@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Formulaire web</title>
+<meta charset='utf-8' />	
+    <link type="text/css" href="static/css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="static/js/script.js"></script>
+</head>
+<body>
+    <h1>Connaissez-vous vos capitales ?</h1>
+
+    <div>
+        <p>Retrouver pour chaque pays proposé sa capitale parmi les trois proposées.</p>
+        <ul>
+            <li>Chaque bonne réponse rapporte 1 point</li>
+            <li>Si vous passez la question, vous perdez 1 point.</li>
+            <li>Vous répondez mal, le questionnaire s'arête !</li>
+        </ul>
+    </div>
+    <form action="http://localhost:5000/jouer" method="post" class="form-example">
+        <div class="cache">
+            <input class="cache" type="radio" name="capitale" value="" checked>
+            <input class="cache" type="radio" name="capitale" value="">
+            <input class="cache" type="radio" name="capitale" value="">
+        </div>
+    
+        <div class="cache">
+            <input class="cache" type="number" name="score" value="1" />
+            <input class="cache" type="text" name="pays" value="" />
+        </div>
+        
+        <div class="">
+            <input class="bouton" type="submit" value="Commencer">
+        </div>
+      </form>
+
+</body >
+</html>
+
